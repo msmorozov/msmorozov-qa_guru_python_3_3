@@ -1,8 +1,8 @@
-import pytest
 from selene.support.shared import browser
+from selene import have, be
 
 
-def test_negative_case(open_browser):
+def test_zero_negative_case(open_browser):
     negative_search = 'uefpiqwf w1efpqwgefqbve'
     negative_search_result = 'About 0 results'
 
